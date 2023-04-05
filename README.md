@@ -27,15 +27,6 @@ Technologies Used
 *   Matplotlib
 *   Scikit-learn
 
-How to Use
-----------
-
-To run this project, follow these steps:
-
-1.  Clone the repository to your local machine.
-2.  Install the necessary dependencies using `pip install -r requirements.txt`.
-3.  Run the Jupyter notebook `credit_card_clustering.ipynb` to clean the data, perform the analysis, and build the clustering models.
-4.  The resulting graphs and visualizations will be displayed in the notebook.
 
 Files
 -----
