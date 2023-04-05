@@ -7,7 +7,7 @@ The project is broken down into the following steps:
 
 1.  **Data Collection:** The raw data is obtained from an online dataset repository and is in CSV format.
     
-2.  **Data Cleaning:** The raw data is cleaned using Python and the Pandas library. The data is inspected for any missing values, duplicates, and inconsistencies. The cleaned data is then stored in a new CSV file.
+2.  **Data Cleaning:** The raw data is cleaned using Python and the Pandas library. The data is inspected for any missing values, duplicates, and inconsistencies. 
     
 3.  **Exploratory Data Analysis:** The cleaned data is then used to explore the distribution of the features and to identify any correlations between them.
     
@@ -40,10 +40,8 @@ To run this project, follow these steps:
 Files
 -----
 
-*   `credit_card_data.csv`: The raw data obtained from the online dataset repository.
-*   `credit_card_clustering.ipynb`: The Jupyter notebook containing the code for data cleaning, exploratory data analysis, data preprocessing, and model building.
-*   `cleaned_data.csv`: The cleaned data after data cleaning is performed.
-*   `images/`: A directory containing the resulting graphs and visualizations generated during the analysis.
+*   `cc_general.csv`: The raw data obtained from the online dataset repository.
+*   `clustering.ipynb`: The Jupyter notebook containing the code for data cleaning, exploratory data analysis, data preprocessing, and model building.
 
 Future Improvements
 -------------------
@@ -51,8 +49,7 @@ Future Improvements
 This project can be improved in the following ways:
 
 *   Using other clustering algorithms such as hierarchical clustering and DBSCAN to compare their performance with K-Means.
-*   Incorporating more features to the dataset, such as transaction history, to improve the accuracy of the clustering models.
-*   Using the clustered groups to perform targeted marketing and personalized recommendations for credit card holders.
+*   Observing the clustered groups further tor recognize their main characteristics.)
 
 Resources
 ---------
